@@ -23,7 +23,7 @@ end
 end
 
 if hwid then
-rconsoleprint(hwid)
+
 setclipboard(hwid)
 game:GetService("Players").LocalPlayer:Kick('copied hwid to clipboard')
 else
